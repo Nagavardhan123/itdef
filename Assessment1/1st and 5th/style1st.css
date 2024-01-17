@@ -1,0 +1,29 @@
+#first {
+    color: dimgray;
+    text-align: center;
+    background-color: gainsboro;
+    border: 2px gray dotted;
+    margin: 10px 0px;
+}
+
+#heaD{
+    color: dimgray;
+    margin-left: 20px;
+}
+
+#headd{
+    color: dimgray;
+    text-decoration: underline;
+    margin-left: 20px;
+}
+
+#para {
+    margin-left: 30px;
+}
+
+#image {
+    display: inline;
+    position: absolute;
+    right: 100px;
+
+}
