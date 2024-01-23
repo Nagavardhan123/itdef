@@ -1,0 +1,165 @@
+#backk {
+    position: absolute;
+    width: 100%;
+    height: 18in;
+    z-index: 0;
+    top: 0px;
+}
+
+
+#men {
+    position: absolute;
+    top: 10px;
+    right: 60px;
+    display: flex;
+    letter-spacing: 2px;
+    font-size: 25px;
+    z-index: 1000;
+}
+
+#two {
+    position: absolute;
+    left: 70px;
+    top: 0px;
+    margin-top: 20px;
+    display: flex;
+    letter-spacing: 5px;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    z-index: 1000;
+}
+
+#one {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    height: 80px;
+    width: 100%;
+    background-color: orange;
+    opacity: 0.8;
+    z-index: 1000;
+}
+
+#main_head {
+    position: relative;
+    font-size: 100px;
+    text-align: center;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 10px;
+    font-weight: bolder;
+    text-shadow: 5px 2px 2px red;
+    z-index: 999;
+}
+
+#images {
+    position: relative;
+    z-index: 1;
+}
+
+#h31 {
+    display: inline-block;
+    left: 10px;
+    font-size: 35px;
+    width: 841px;
+    height: 100px;
+    text-align: end;
+    color: white;
+    z-index: 999;
+}
+
+#fig2 {
+    display: inline-block;
+    position: absolute;
+    top: 00px;
+    right: 0px;
+    margin: 0px 90px 0px 0px;
+}
+
+#h32 {
+    display: inline-block;
+    position: absolute;
+    font-size: 35px;
+    width: 600px;
+    height: 50px;
+    text-align: left;
+    color: white;
+    z-index: 998;
+    right: 00px;
+    top: 630px;
+    margin-right: 0px;
+}
+
+hr {
+    display: inline-block;
+    position: absolute;
+    width: 500px;
+    color: white;
+    z-index: 997;
+    right: 70px;
+    top: 800px;
+    margin-right: 25px;
+
+}
+
+#h33 {
+    display: inline-block;
+    position: absolute;
+    font-size: 17px;
+    width: 250px;
+    height: 50px;
+    text-align: right;
+    color: white;
+    z-index: 997;
+    right: 370px;
+    top: 1250px;
+    margin-right: 10px;
+}
+
+#frontt3 {
+    display: inline-block;
+    width: 220px;
+    height: 400px;
+    position: absolute;
+    right: 370px;
+    top: 830px;
+}
+
+#h34 {
+    display: inline-block;
+    position: absolute;
+    font-size: 17px;
+    width: 250px;
+    height: 50px;
+    text-align: right;
+    color: white;
+    z-index: 998;
+    right: 103px;
+    top: 1250px;
+    margin-right: 10px;
+}
+
+#frontt4 {
+    display: inline-block;
+    width: 220px;
+    height: 400px;
+    position: absolute;
+    right: 103px;
+    top: 830px;
+}
+
+#thokalu1 {
+    display: inline-block;
+    position: absolute;
+    top: 1239px;
+    right: 547px;
+    margin: 0px 00px 0px 0px;
+}
+#thokalu2 {
+    display: inline-block;
+    position: absolute;
+    top: 1239px;
+    right: 283px;
+    margin: 0px 0px 0px 0px;
+}
