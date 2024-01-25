@@ -16,15 +16,39 @@
 // // }
 // console.log(length(a))
 
-let x = [1, 3454, 655, 24, 7, 8, 9999]
-var b = x[0];
-for (let i = 1; i < x.length; i++)
-{
-	if (b < x[i]){
-		b = x[i];
-	}
-	else{
-		continue
-	}
+// let x = [1, 3454, 655, 24, 7, 8, 9999]
+// var b = x[0];
+// for (let i = 1; i < x.length; i++)
+// {
+// 	if (x[i] > b){
+// 		b = x[i];
+// }	
+// }
+// console.log(b)
+
+// const myArr = [[1,2],[3,4],[5,6]];
+// const newArr = myArr.flat();
+// console.log(newArr)
+
+// const months = ["Jan", "Feb", "Mar", "Apr"];
+// const spliced = months.toSpliced(0, 1);
+
+// console.log(months)
+// console.log(spliced)
+
+// let a = ["naga","gova","lh","rx"];
+// a.splice(1,0,2)
+// console.log(a)
+
+
+// const fruits = ["Banana", "Orange", "Apple", "Mango"];
+// fruits.splice(0);
+// console.log(fruits)
+
+
+
+a = `nagaardhan reddy`
+function print(value){
+	console.log(value);
 }
-console.log(b)
+print(a)
