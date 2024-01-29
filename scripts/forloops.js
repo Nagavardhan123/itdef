@@ -92,22 +92,14 @@
 
 
 
-// let a = [9,8,7,6]
-// var b = a[0];
-// for (let i = 1; i < a.length; i++) {
-// 	if (a[i] > b) {
-// 		b = a[i];
-// 	}
-// }
-// inde = a.indexOf(b)
-// a[inde] = 0
-// b = a[0];
-// for (let i = 1; i < a.length; i++) {
-// 	if (a[i] > b) {
-// 		b = a[i];
-// 	}
-// }
-// console.log(b)
+let a = [9,5,9,9]
+var b = a[0];
+function larg(arr, val){for (let i = 1; i < a.length; i++) {if (a[i] > b) {	b = a[i];}}};
+larg(a, b);
+for (let i = 0; i < a.length; i++) {inde = a.indexOf(b); a[inde] = 0};
+b = a[0];
+larg(a, b);
+console.log(b)
 
 
 
