@@ -162,10 +162,19 @@
  
 // console.log(snakeCaseString);
 
-// camelCaseString = "GeeksForGeeks";
+// camelCaseSnake = "GeeksForGeeks";
 
-// console.log(camelCaseString. replace(/([a-z])([A-Z])/g, '$1_$2'). toLowerCase());
+// console.log(camelCaseString.replace(/([a-z])([A-Z])/g, '$1_$2'). toLowerCase());
 
+// snakeCaseCamel = "geeks_for_geeks";
+// b = snakeCaseCamel.replace(/([a-z])_([a-z])/g, '$1 $2');
+// c = b.split(" ");
+// console.log(c)
+// for (let i = 1; i< c.length; i++) {
+// 	c[i] = c[i][0].toUpperCase() + c[i].substr(1);
+	
+// }
+// console.log(c.join(" "))
 
 
 // let a = 'naga'
@@ -181,6 +190,17 @@
 // console.log(c)
 
 
+// camelCaseString = "geeks_for_geeks";
+
+// console.log(camelCaseString. replace(/(.*?)_([a-zA-Z])/g));
+
+
+
+let person = prompt("Please enter your name", "Harry Potter");
+
+if (person != null) {
+  console.log("Hello " + person + "! How are you today?");
+}
 
 
 
