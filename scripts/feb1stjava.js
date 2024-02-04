@@ -1,6 +1,8 @@
 // coding questions on HOF's
 // 1.  Implement for each
 
+// let x = ['a','b','c','d']
+// x.forEach(dem => console.log(dem.toUpperCase()))
 
 
 
@@ -41,8 +43,10 @@
 
 // myFilter(calll,[-1,-2,-4,0,4,3,8,10])
 
-//4.
-
+//4.  reduce function type
+// let a = [1,2,3,4,5]
+// let out = a.reduce((acc,el) => acc + el, 100)
+// console.log(out)
 
 
 //5. 
@@ -67,8 +71,27 @@
 // c(20)
 
 
-//7.   
+//7.   HOF
+// let a = [2,4]
+// let sum = 0
+// function fun1(ele){
+// 	 sum+=ele
+// }
+// function fun2(no){
+// 	sqr = no ** 2
+// 	return fun1(sqr)
+// }
+// function fun3(arr){
+// 	for (let i of arr){
+// 		if (i%2 == 0){
+// 			 fun2(i)
+// 		}
+// 	}
+// 	return sum
+// }
 
+// let out = fun3(a)
+// console.log(out)
 
 
 //8.    
