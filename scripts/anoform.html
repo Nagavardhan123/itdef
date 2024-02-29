@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            margin: 300px;
+            height: 400px;
+            width: 400px;
+        }
+        .row{
+            display: flex;
+        }
+        .clss1{
+            background-color: black;
+            color: white;
+        }
+        .clss{
+            background-color: gainsboro;
+            color: black;
+        }
+        .cell{
+            height: 50px;
+            width: 50px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container" id="naa">
+    </div>
+    <script>
+        let strr = ""
+        for(let i = 1;i<=4;i++){
+            strr+='<div class="row">' + 
+            for(let j =1;j<=4;j++){
+                if ((i+j)%2 !=){
+                    <div class="clss1 cell">black</div>
+                }
+                else{
+                    <div class="clss cell">white</div>
+                }
+            }
+            strr+=`<div class="row">
+            
+            <div class="clss cell">white</div>
+            <div class="clss1 cell">black</div>
+            <div class="clss cell">white</div>
+            <div class="clss1 cell">black</div>
+            <div class="clss cell">white</div>
+            <div class="clss1 cell">black</div>
+            <div class="clss cell">white</div>
+        </div>
+        <div class="row">
+            <div class="clss cell">white</div>
+            <div class="clss1 cell">black</div>
+            <div class="clss cell">white</div>
+            <div class="clss1 cell">black</div>
+            <div class="clss cell">white</div>
+            <div class="clss1 cell">black</div>
+            <div class="clss cell">white</div>
+            <div class="clss1 cell">black</div>
+        </div>`
+        }
+        // for(let i = 1;i<=4;i++){
+        //     strr+=`<div class="row">
+        //     <div class="clss1 cell">black</div>
+        //     <div class="clss cell">white</div>
+        //     <div class="clss1 cell">black</div>
+        //     <div class="clss cell">white</div>
+        //     <div class="clss1 cell">black</div>
+        //     <div class="clss cell">white</div>
+        //     <div class="clss1 cell">black</div>
+        //     <div class="clss cell">white</div>
+        // </div>
+        // <div class="row">
+        //     <div class="clss cell">white</div>
+        //     <div class="clss1 cell">black</div>
+        //     <div class="clss cell">white</div>
+        //     <div class="clss1 cell">black</div>
+        //     <div class="clss cell">white</div>
+        //     <div class="clss1 cell">black</div>
+        //     <div class="clss cell">white</div>
+        //     <div class="clss1 cell">black</div>
+        // </div>`
+        // }
+        document.getElementById('naa').innerHTML=strr
+    </script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="myDIV" class="header">
+        <h2>My To Do List</h2>
+        <input type="text" id="myInput" placeholder="Title..." required>
+        <span onclick="newElement()" class="addBtn">Add</span>
+        </div>
+        
+        <ul id="myUL">
+            
+        </ul>
+
+    <Script>
+        let lis = ""
+        let ull = document.getElementById('myUL')
+        function newElement(){
+            let a = document.getElementById('myInput').value
+            console.log(a)
+            lis += a
+            let lisss = document.createElement('li')
+            lisss.setAttribute('class','lisclass')
+            ull.appendChild(lisss)
+            console.log(lis)
+            let b = document.createTextNode(a)
+            lisss.appendChild(b)
+            document.getElementById('myInput').value = ''
+        }
+    </Script>
+
+    
+</body>
+</html>
